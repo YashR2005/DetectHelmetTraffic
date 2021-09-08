@@ -4,5 +4,7 @@
 
 # How to run (on local):-
 ## 1. Make an conda enviornment with python 3.7 or upper versions.
-## 2. To run it locally make sure other than requirements.txt you have opencv and opencv contrib libraries installed. As we are adding docker base image as opencv we are not adding them on the requirements.txt folder.
-## 3. After installing all the packages with command "pip install -r requirements.txt" run app.py
+## 2. To run it locally make sure other than requirements.txt you have to install "opencv-python" and "opencv-contrib-python" libraries. As we are adding docker base image as      opencv we are not adding them on the requirements.txt folder. 
+##              To install those libraries command is:- pip install opencv-python opencv-contrib-python
+## 3. To install rest of the packages use command "pip install -r requirements.txt".
+## 4. Run "app.py" .
