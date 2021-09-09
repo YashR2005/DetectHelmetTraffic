@@ -15,7 +15,7 @@ def result():
     if request.method == 'POST':
         image = request.json['image']
         img = Decode(image).copy()
-        #img = cv2.resize(img, (480, 320),interpolation=cv2.INTER_NEAREST)
+        img = cv2.resize(img, (480, 320),interpolation=cv2.INTER_NEAREST)
         mobilenet(img)
         return render_template('index.html')
     return render_template('index.html')
