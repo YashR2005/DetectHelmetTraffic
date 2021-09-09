@@ -14,8 +14,6 @@ category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABE
                                                                         use_display_name=True)
 
 def mobilenet(image):
-    #image = cv2.imread(IMAGE_PATHS)
-    #image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     image_expanded = np.expand_dims(image, axis=0)
 
     # The input needs to be a tensor, convert it using `tf.convert_to_tensor`.
