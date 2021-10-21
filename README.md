@@ -1,7 +1,7 @@
 # SSD_MOBILENET_HELMET_DETECTION
 
 ## Architecture Used:-
-  #### SSD_mobilenet, OPenCV, HTML, Flask
+  #### SSD_mobilenet,computer vision, html, Flask api
 
 ![helmet_snipet](https://user-images.githubusercontent.com/52413661/132514672-c7b974f5-e133-4dff-b322-e10df5a1f6e1.PNG)
 
