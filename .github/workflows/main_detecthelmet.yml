@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'DetectHelmet'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_665B7DAAF4BD469994E7B9EE2CD985BE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_94D9A79BDC1B436BBBF3A8A6E129D735 }}
